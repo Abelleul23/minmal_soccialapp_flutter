@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594144040189",
+    "project_id": "socialapp-3e67f",
+    "storage_bucket": "socialapp-3e67f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594144040189:android:1839d535e6c92b8f5a1a94",
+        "android_client_info": {
+          "package_name": "com.socialapp.abel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdbVU69ci3xWl8GOtu3v-Fp0iK-nhelts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
