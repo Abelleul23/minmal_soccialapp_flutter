@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:socialapp/helper/helper_functions.dart';
 
 import '../components/my_back_button.dart';
+import '../components/my_list_tile.dart';
 
 class UsersPage extends StatelessWidget {
   const UsersPage({super.key});
@@ -56,9 +57,13 @@ class UsersPage extends StatelessWidget {
                     // get individual user
                     final user = users[index];
 
-                    return ListTile(
-                      title: Text(user['username']),
-                      subtitle: Text(user['email']),
+                    // get data from each user
+                    String username = user['username'];
+                    String email = user["email"];
+
+                    return MyListTile(
+                      title: username,
+                      subtitle: email,
                     );
                   },
                 ),
